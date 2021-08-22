@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<title>Store</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row pt-lg-5 gx-5 offset-lg-1">
+					<div class="col-lg-6">
+						<img src="images/mac.png" class="img-fluid" />
+					</div>
+					<div class="col-lg-6 d-flex flex-column">
+						<div class="mac-info d-flex flex-column align-items-center">
+							<h2>Customize your Blue-24 inch iMac with Apple M1 chip</h2>
+							<p>
+								iMac is a family of all-in-one Macintosh desktop computers
+								designed and built by Apple Inc. ... It also includes a dual
+								microphone setup and includes solid-state drive (SSD) or hard
+								disk storage, or an Apple Fusion Drive, a hybrid of solid-state
+								and hard disk drives.
+							</p>
+						</div>
+						<div class="mac-spec d-flex flex-column pt-lg-5">
+							<div class="mac-memory py-2">
+								<p class="fw-bold mb-0">Memory</p>
+								<div class="buy-memory d-flex flex-row gap-1">
+									<button id="btn-8gb" class="btn btn-outline-dark">
+										8GB unified memory
+									</button>
+									<button id="btn-16gb" class="btn btn-outline-dark">
+										16GB unified memory
+									</button>
+								</div>
+							</div>
+							<div class="mac-storage py-2">
+								<p class="fw-bold mb-0">Storage</p>
+								<div class="buy-memory d-flex flex-row gap-1">
+									<button id="btn-256gb" class="btn btn-outline-dark">
+										256GB SSD storage
+									</button>
+									<button id="btn-512gb" class="btn btn-outline-dark">
+										512GB SSD storage
+									</button>
+									<button id="btn-1tb" class="btn btn-outline-dark">
+										1TB SSD storage
+									</button>
+								</div>
+							</div>
+							<div class="delivary-options py-2">
+								<p class="fw-bold mb-0">Choose your delivery option</p>
+								<div class="buy-memory d-flex flex-row gap-1">
+									<button id="delivery-free" class="btn btn-outline-dark">
+										Friday,AUG 25 Free Prime Delivery
+									</button>
+									<button id="delivery-charge" class="btn btn-outline-dark">
+										Friday,AUG 21 Delivery Charge $20
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="mac-price pt-4 px-5">
+							<div>
+								<table class="table">
+									<tbody>
+										<tr class="fw-bold">
+											<td>Best Price</td>
+											<td>$<span id="best-price">1299</span></td>
+										</tr>
+										<tr class="fw-bold">
+											<td>Extra Memory Cost</td>
+											<td>$<span id="extra-memory">0</span></td>
+										</tr>
+										<tr class="fw-bold">
+											<td>Extra Storage Cost</td>
+											<td>$<span id="extra-storage">0</span></td>
+										</tr>
+										<tr class="fw-bold">
+											<td>Delivery charge</td>
+											<td>$<span id="charge-fee">0</span></td>
+										</tr>
+										<thead></thead>
+										<tr class="fw-bold">
+											<td>Total Price</td>
+											<td>$<span id="total-price">1299</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div>
+								<p>Add Promo Code</p>
+								<div class="input-group w-75">
+									<input
+										id="promo-code-input"
+										type="text "
+										class="form-control"
+									/>
+									<button id="promo-code" type="button" class="btn btn-danger">
+										Apply
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="mx-auto w-50"><hr /></div>
+			<h1 class="text-center">Total:$<span id="footer-total">1299</span></h1>
+		</footer>
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/alif.js"></script>
+	</body>
+</html>
